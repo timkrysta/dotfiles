@@ -1,3 +1,5 @@
+alias deploy="php artisan test && git push -u origin production"
+
 
 function howto wikihowto() {
   if [[ $# -eq 0 ]]; then
